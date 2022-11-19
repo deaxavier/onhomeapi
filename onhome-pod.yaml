@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: onhome
+
+spec:
+  containers:
+    - name: onhome
+      image: britors/onhome:latest
+      ports:
+        - containerPort: 8080
